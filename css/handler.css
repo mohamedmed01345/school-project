@@ -1,0 +1,32 @@
+body{
+	font-family: arial;
+}
+div{
+	font-size: 20px;
+}
+label{
+	position: relative;
+	top: 30px; 
+}
+#inputs{
+	width: 50%;
+    height: 30px;
+    outline: none;
+	border : none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: aquamarine;
+}
+input[type="submit"]{
+	width: 30%;
+    height: 8%;
+	outline: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: aquamarine;
+    background-color: #d03c42;
+    color: white;
+    position: relative;
+    top: 20px;
+}

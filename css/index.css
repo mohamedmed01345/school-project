@@ -1,0 +1,49 @@
+body{
+	font-family: arial;
+	background-image: url("\img\bck\bck.png")
+}
+#inputs {
+    width: 50%;
+    height: 30px;
+    outline: none;
+	border : none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: aquamarine;
+}
+header{
+    background-color: #d03c42;
+    color: white;
+    position: fixed;
+    background-clip: border-box;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: 0;
+}
+label{
+	position: relative;
+	top: 120px;
+}
+div{
+	font-size: 70px;
+	font-weight: 20;
+}
+input[type="submit"]{
+	width: 30%;
+    height: 8%;
+    font-size: 35;
+    position: relative;
+    top: 20px;
+    outline: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: aquamarine;
+    background-color: #d03c42;
+    color: white;
+}
+#pass{
+	position: relative;
+	top: 12px;
+}
